@@ -14,6 +14,7 @@
 		6B6B84512483D0BE0081DDE3 /* YoutubeVideoPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B844F2483D0BE0081DDE3 /* YoutubeVideoPractice.xcdatamodeld */; };
 		6B6B84532483D0BF0081DDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6B84522483D0BF0081DDE3 /* Assets.xcassets */; };
 		6B6B84562483D0BF0081DDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6B84542483D0BF0081DDE3 /* LaunchScreen.storyboard */; };
+		6B6B845F2483D0EC0081DDE3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B845E2483D0EC0081DDE3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B6B84522483D0BF0081DDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B6B84552483D0BF0081DDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B6B84572483D0BF0081DDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6B845E2483D0EC0081DDE3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6B845F2483D0EC0081DDE3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				6B6B84452483D0BE0081DDE3 /* YoutubeVideoPractice */,
 				6B6B84442483D0BE0081DDE3 /* Products */,
+				6B6B845D2483D0EC0081DDE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +72,14 @@
 				6B6B844F2483D0BE0081DDE3 /* YoutubeVideoPractice.xcdatamodeld */,
 			);
 			path = YoutubeVideoPractice;
+			sourceTree = "<group>";
+		};
+		6B6B845D2483D0EC0081DDE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6B845E2483D0EC0081DDE3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
